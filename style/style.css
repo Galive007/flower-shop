@@ -36,10 +36,7 @@ body{
     align-items: center;
     gap: 40px;
 }
-.banner-text{
-    /* border: 1px solid blue; */
-    /* width: 100%; */
-}
+
 .banner-text h1{
     color: rgb(39, 39, 39);
     font-family: "Poppins", sans-serif;
@@ -185,4 +182,50 @@ body{
     /* border: 1px solid brown; */
     text-align: center;
     margin-top: 55px;
+}
+/* Instagram Section */
+.instagram-container{
+    max-width: 1440px;
+    height: 500px;
+    margin: 0px auto 100px;
+    /* border: 1px solid gold; */
+}
+.instagram-tittle{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.instagram-tittle h4{
+    color: rgb(39, 39, 39);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+.instagram-tittle p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.instagram-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.instagram-images{
+    display: flex;
+    gap: 15px;
+}
+.image-1,.image-2,.image-3,.image-4{
+    display: flex;
+    justify-content: center;
+    width: 340px;
+    height: 390px;
+    border: 2px dashed rgb(219,219,219);
+}
+.instagram-images .image-1 img,.image-2 img,.image-3 img,.image-4 img{
+    width: 100%;
 }
