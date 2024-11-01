@@ -186,7 +186,6 @@ body{
 /* Instagram Section */
 .instagram-container{
     max-width: 1440px;
-    height: 500px;
     margin: 0px auto 100px;
     /* border: 1px solid gold; */
 }
@@ -228,4 +227,62 @@ body{
 }
 .instagram-images .image-1 img,.image-2 img,.image-3 img,.image-4 img{
     width: 100%;
+}
+/* subscribe section */
+.subscribe-container{
+    max-width: 1440px;
+    height: 540px;
+    margin: 0px auto 100px;
+    /* border: 1px solid gold; */
+}
+.subscribe-content{
+    width: 90%;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    height: 450px;
+    border-radius: 8px;
+    background-image: url("../images/latest-deals-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;  
+}
+.subscribe-content .subscribe-tittle{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 25px;
+}
+.subscribe-content .subscribe-tittle h4{
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+}
+.subscribe-content .subscribe-tittle p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.subscribe-content .subscribe-data{
+    width: 70%;
+    margin: 0 auto;
+
+}
+.subscribe-data input{
+    color: rgba(39, 39, 39, 0.6);
+    width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding: 22px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 10px;
 }
