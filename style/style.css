@@ -190,8 +190,12 @@ body{
     margin: 0px auto 100px;
     /* border: 1px solid gold; */
 }
+.instagram-content{
+    width: 90%;
+    margin: 0 auto;
+}
 .instagram-tittle{
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 15px;
@@ -210,10 +214,6 @@ body{
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0%;
-}
-.instagram-content{
-    width: 90%;
-    margin: 0 auto;
 }
 .instagram-images{
     display: flex;
