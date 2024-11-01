@@ -243,8 +243,9 @@ body{
     border-radius: 8px;
     background-image: url("../images/latest-deals-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;  
+    background-size: cover;
+    background-position: top;
+    border: 2px dashed rgb(219,219,219);
 }
 .subscribe-content .subscribe-tittle{
     width: 50%;
